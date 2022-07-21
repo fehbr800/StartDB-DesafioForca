@@ -41,7 +41,7 @@ npm start
 
 As regras estão descritas [nesse arquivo](docs/Regras.md).
 
-# Desafio resolvido por :):?
-<li><a>https://github.com/fehbr800 Matheus Emanoel<a/></li>
+# Desafio resolvido por:
+ <li><a target="_blank" href="https://github.com/fehbr800">Matheus Emanoel</a></li>
 
 
