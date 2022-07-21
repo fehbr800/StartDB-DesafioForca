@@ -41,13 +41,6 @@ npm start
 
 As regras estão descritas [nesse arquivo](docs/Regras.md).
 
-# Quero enviar meu desafio, como faço :D ?
+# Desafio resolvido por :):?
 
-## Enviar o código fonte por e-mail:
 
-Enviar o código fonte para o e-mail start@dbserver.com.br
-
-## Ou subir código no GitHub:
-
-1. Subir o código para um repositório público (Se não sabe como, acesse [aqui](https://docs.github.com/pt/github/managing-files-in-a-repository/managing-files-using-the-command-line/adding-a-file-to-a-repository-using-the-command-line))
-2. Enviar o link do repositório para o e-mail start@dbserver.com.br
