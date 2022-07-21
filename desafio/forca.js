@@ -9,20 +9,20 @@ class Forca {
   }
 
   chutar(letra) {
-    const palavraModificada = letra.toLowerCase();
-    if (!this.isCaracterValido (palavraModificada)) {
+    const palavraChutadaEsperada = letra.toLowerCase();
+    if (!this.isCaracterValido (palavraChutadaEsperada)) {
       return console.log("Você inseriu um ou mais caracteres inválidos. \n  Tente novamente inserindo apenas uma letra")
     }
-    if (this.letrasChutadas.includes (palavraModificada)) {
+    if (this.letrasChutadas.includes (palavraChutadaEsperada)) {
       return console.log("A Letra já foi inserida, insira outro caracter")
     }
-    if (this.palavraEsperada.includes (palavraModificada)) {
-      this.letrasCorretas.push (palavraModificada)
-      this.letrasChutadas.push (palavraModificada)
+    if (this.palavraEsperada.includes (palavraChutadaEsperada)) {
+      this.letrasCorretas.push (palavraChutadaEsperada)
+      this.letrasChutadas.push (palavraChutadaEsperada)
     } else {
       this.vidas -= 1
-      this.letrasErradas.push (palavraModificada)
-      this.letrasChutadas.push (palavraModificada)
+      this.letrasErradas.push (palavraChutadaEsperada)
+      this.letrasChutadas.push (palavraChutadaEsperada)
     }
   }
 
@@ -39,7 +39,8 @@ class Forca {
     } else {
       return "perdeu"
     }
-  } // Possiveis valores: "perdeu", "aguardando chute" ou "ganhou"
+  } 
+  // Possiveis valores: "perdeu", "aguardando chute" ou "ganhou"
 
   buscarDadosDoJogo() {
     const palavra = this.palavraEsperada.split("")
